@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///C:/Users/irfan/Downloads/child%20website.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sponsor a Child —ChildSponsor (Template)</title>
+  <meta name="description" content="Sponsor a child&#39;s education — donation tiers, impact, and easy sponsorship form.">
+  <style>
+    :root{
+      --accent:#0b6e4f;
+      --muted:#6b6b6b;
+      --bg:#f7f8fa;
+      --card:#ffffff;
+      --maxw:1100px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#222;line-height:1.5}
+    .container{max-width:var(--maxw);margin:0 auto;padding:28px}
+
+    header{background:linear-gradient(90deg, rgba(11,110,79,0.06), rgba(11,110,79,0.03));border-bottom:1px solid rgba(0,0,0,0.05)}
+    .topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo img{height:46px}
+    nav ul{list-style:none;margin:0;padding:0;display:flex;gap:18px}
+    nav a{color:var(--accent);text-decoration:none;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:36px 0}
+    .hero h1{font-size:28px;margin:0 0 8px}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .hero .cta{display:flex;gap:12px}
+    .btn{background:var(--accent);color:#fff;padding:12px 18px;border-radius:8px;border:none;cursor:pointer;font-weight:600}
+    .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(11,110,79,0.12)}
+
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(20,20,20,0.04)}
+
+    /* Impact stats */
+    .stats{display:flex;gap:16px;margin-top:18px}
+    .stat{flex:1;padding:12px;border-radius:10px;text-align:center;background:linear-gradient(180deg,#fff,#fbfffb)}
+    .stat h3{margin:0;color:var(--accent)}
+    .stat p{margin:6px 0 0;color:var(--muted);font-size:14px}
+
+    /* Sponsorship plans */
+    .plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin:26px 0}
+    .plan{border:1px solid rgba(11,110,79,0.06);padding:18px;border-radius:12px}
+    .plan h4{margin:0 0 6px}
+    .price{font-size:20px;font-weight:700;color:var(--accent)}
+    .plan ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+
+    /* How it works */
+    .how{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:22px 0}
+    .how .step{padding:14px;border-radius:10px;background:#fff}
+    .how .step h5{margin:0 0 6px}
+    .how .step p{margin:0;color:var(--muted);font-size:14px}
+
+    /* Sponsor form */
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    label{display:block;font-size:13px;margin-bottom:6px}
+    input[type="text"],input[type="email"],select,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e6e6}
+    textarea{min-height:120px}
+
+    footer{margin-top:36px;padding:26px 0;color:var(--muted);font-size:14px}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .how{grid-template-columns:1fr}
+      .form-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="logo">
+        <img src="./Sponsor a Child —ChildSponsor (Template)_files/Sponsoring-girls-donating-education-support-1419.jpg" alt="SERUDS logo">
+        <div>
+          <div style="font-weight:700">ChildSponsor</div>
+          <div style="font-size:12px;color:var(--muted)">Sponsor a child's education</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="file:///C:/Users/irfan/Downloads/child%20website.html#impact">Impact</a></li>
+          <li><a href="file:///C:/Users/irfan/Downloads/child%20website.html#plans">Sponsorship Plans</a></li>
+          <li><a href="file:///C:/Users/irfan/Downloads/child%20website.html#how">How it Works</a></li>
+          <li><a href="file:///C:/Users/irfan/Downloads/child%20website.html#sponsor">Sponsor Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Give the gift of education — Sponsor a child today</h1>
+        <p>Every child deserves a chance. Your sponsorship provides school fees, books, uniforms, and mentorship to children from vulnerable communities.</p>
+        <div class="cta">
+          <button class="btn" onclick="document.getElementById(&#39;sponsor-form&#39;).scrollIntoView({behavior:&#39;smooth&#39;})">Sponsor Now</button>
+          <button class="btn ghost" onclick="window.location=&#39;#impact&#39;">See Impact</button>
+        </div>
+
+        <div class="stats">
+          <div class="stat card">
+            <h3>1,200+</h3>
+            <p>Children supported</p>
+          </div>
+          <div class="stat card">
+            <h3>95%</h3>
+            <p>Attendance improvement</p>
+          </div>
+          <div class="stat card">
+            <h3>10+</h3>
+            <p>Years of work in communities</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <img src="./Sponsor a Child —ChildSponsor (Template)_files/OIP.webp" alt="Children" style="width:100%;border-radius:8px;display:block;margin-bottom:12px">
+        <h3 style="margin:0 0 6px">Monthly Sponsorship</h3>
+        <p style="margin:0 0 12px;color:var(--muted)">Start a monthly pledge and transform a child's future with consistent support.</p>
+        <div style="display:flex;gap:10px;align-items:center">
+          <div style="flex:1"><strong>₹600 / month</strong><div style="font-size:12px;color:var(--muted)">Covers school fees &amp; supplies</div></div>
+          <button class="btn" onclick="document.getElementById(&#39;sponsor-form&#39;).scrollIntoView({behavior:&#39;smooth&#39;})">Sponsor ₹600</button>
+        </div>
+      </aside>
+    </section>
+
+    <section id="impact">
+      <h2 style="margin-top:10px">Our Impact</h2>
+      <p style="color:var(--muted)">We work closely with families, schools, and local volunteers to ensure sponsored children attend school and receive learning support.</p>
+      <div class="plans" id="plans">
+        <div class="plan card">
+          <h4>Basic</h4>
+          <div class="price">₹600 / month</div>
+          <ul>
+            <li>School fees</li>
+            <li>Books &amp; stationery</li>
+          </ul>
+          <button class="btn" style="margin-top:12px" onclick="document.getElementById(&#39;amount&#39;).value=&#39;600&#39;;document.getElementById(&#39;sponsor-form&#39;).scrollIntoView({behavior:&#39;smooth&#39;})">Choose</button>
+        </div>
+
+        <div class="plan card">
+          <h4>Standard</h4>
+          <div class="price">₹900 / month</div>
+          <ul>
+            <li>Fees, books, uniform</li>
+            <li>Extra tuition support</li>
+          </ul>
+          <button class="btn" style="margin-top:12px" onclick="document.getElementById(&#39;amount&#39;).value=&#39;900&#39;;document.getElementById(&#39;sponsor-form&#39;).scrollIntoView({behavior:&#39;smooth&#39;})">Choose</button>
+        </div>
+
+        <div class="plan card">
+          <h4>Comprehensive</h4>
+          <div class="price">₹1500 / month</div>
+          <ul>
+            <li>All essential needs</li>
+            <li>Health &amp; mentoring</li>
+          </ul>
+          <button class="btn" style="margin-top:12px" onclick="document.getElementById(&#39;amount&#39;).value=&#39;1500&#39;;document.getElementById(&#39;sponsor-form&#39;).scrollIntoView({behavior:&#39;smooth&#39;})">Choose</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <h2>How it works</h2>
+      <div class="how">
+        <div class="step card">
+          <h5>1. Choose a plan</h5>
+          <p>Select a monthly amount to cover education essentials.</p>
+        </div>
+        <div class="step card">
+          <h5>2. Sponsor &amp; pay</h5>
+          <p>We provide secure payment options and receipts for donations.</p>
+        </div>
+        <div class="step card">
+          <h5>3. See the change</h5>
+          <p>Receive updates about your sponsored child's progress and stories.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsor">
+      <h2>Sponsor a child</h2>
+      <p style="color:var(--muted)">Fill in the form below to start sponsoring. We'll follow up with a short welcome and child's profile when available.</p>
+
+      <div class="card" style="margin-top:12px">
+        <form id="sponsor-form" onsubmit="event.preventDefault();alert(&#39;This is a static template. Hook a payment processor and backend to collect data.&#39;);">
+          <div class="form-grid">
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" type="text" required="" placeholder="Your name">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" required="" placeholder="you@example.com">
+            </div>
+            <div>
+              <label for="phone">Phone (optional)</label>
+              <input id="phone" type="text" placeholder="+91 98765 43210">
+            </div>
+            <div>
+              <label for="amount">Monthly amount (INR)</label>
+              <select id="amount" required="">
+                <option value="600">₹600</option>
+                <option value="900">₹900</option>
+                <option value="1500">₹1500</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div style="grid-column:1 / -1">
+              <label for="message">Message (optional)</label>
+              <textarea id="message" placeholder="A short note to the child or our team"></textarea>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:12px;margin-top:12px">
+            <button class="btn" type="submit">Proceed to payment</button>
+            <button class="btn ghost" type="button" onclick="document.getElementById(&#39;amount&#39;).value=&#39;600&#39;">Reset to ₹600</button>
+          </div>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap">
+        <div>
+          <strong>SERUDS India</strong>
+          <div style="color:var(--muted)">Registered NGO • Working for child education and community development</div>
+        </div>
+        <div style="color:var(--muted)">Contact: info@serudsindia.org | Phone: +91-XXXXXXXXXX</div>
+      </div>
+    </div>
+  </footer>
+
+
+</body></html>
